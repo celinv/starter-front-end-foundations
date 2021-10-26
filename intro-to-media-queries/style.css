@@ -1,0 +1,10 @@
+p {
+    font-size: 14px;
+}
+
+/* if the browser's minimum width is 800px, then font-size will be 24px*/
+@media all and (min-width: 800px) {
+    p {
+        font-size: 24px;
+    }
+}
