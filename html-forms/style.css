@@ -2,6 +2,37 @@ body {
   padding: 10px;
 }
 
+label,
+input,
+button {
+  display: flex;
+  flex-direction: column;
+}
+
 input {
-  margin: 5px;
+  margin-bottom: 15px;
+  width: 250px;
+}
+
+textarea {
+  height: 80px;
+  width: 250px;
+}
+
+@media all and (min-width: 600px) {
+  label,
+  input,
+  button {
+    display: flex;
+    flex-direction: row;
+  }
+
+  input {
+    width: 700px;
+  }
+
+  textarea {
+    height: 160px;
+    width: 700px;
+  }
 }

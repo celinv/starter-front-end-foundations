@@ -22,7 +22,7 @@ header nav {
 header nav ul {
   display: flex;
   padding-left: 0
-  list-style: none;
+  /*list-style: none;*/
 }
 
 header nav ul li a {
@@ -48,7 +48,7 @@ header nav ul li last-child a {
   }
 
   header nav {
-    *margin-top: 8px;
+    margin-top: 8px;
   }
 
   header nav ul li a:hover {
